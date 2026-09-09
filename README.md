@@ -1,6 +1,7 @@
 # Dr. S. Sureshbhalaji — Personal Medical Portfolio Website
 
-A premium, minimal personal website for **Dr. S. Sureshbhalaji**, Consultant Urologist & Andrologist. Built with HTML5, CSS3, and vanilla JavaScript — no frameworks or dependencies.
+A premium, minimal personal website for **Dr. S. Sureshbhalaji**, Consultant Urologist & Andrologist. Built with HTML5, CSS3, and vanilla JavaScript — no frameworks or dependencies
+
 
 ## Project Overview
 
@@ -252,5 +253,6 @@ The "1 Lakh+ Kidney Stone Procedures" statistic is marked with `*` and includes 
 ---
 
 Built as a static, maintainable website for easy updates by a developer or clinic staff member.
-#   d r . s u r e s h b h a l a j i  
+#   d r . s u r e s h b h a l a j i 
+ 
  
