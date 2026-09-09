@@ -1,0 +1,43 @@
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+
+  .card:hover,
+  .btn:hover,
+  .image-frame:hover img {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal:nth-child(2) {
+    transition-delay: 80ms;
+  }
+
+  .reveal:nth-child(3) {
+    transition-delay: 160ms;
+  }
+
+  .reveal:nth-child(4) {
+    transition-delay: 240ms;
+  }
+
+  .reveal:nth-child(5) {
+    transition-delay: 320ms;
+  }
+
+  .reveal:nth-child(6) {
+    transition-delay: 400ms;
+  }
+}

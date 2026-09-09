@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Kidney urology placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8EEF4"/>
+      <stop offset="100%" style="stop-color:#F0F4F8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="40" y="40" width="720" height="520" rx="20" fill="none" stroke="#C5D0DC" stroke-width="2" stroke-dasharray="12 8"/>
+  <path d="M320 200 C280 200 260 240 260 280 C260 340 320 400 320 400 C320 400 380 340 380 280 C380 240 360 200 320 200 Z" fill="none" stroke="#159A9C" stroke-width="2" opacity="0.45"/>
+  <path d="M480 200 C440 200 420 240 420 280 C420 340 480 400 480 400 C480 400 540 340 540 280 C540 240 520 200 480 200 Z" fill="none" stroke="#159A9C" stroke-width="2" opacity="0.45"/>
+  <text x="400" y="480" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="600" fill="#0B2545">Urology &amp; Kidney Care</text>
+  <text x="400" y="515" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#667585">Replace with urology-related photograph</text>
+</svg>
