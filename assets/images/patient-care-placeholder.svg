@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-label="Patient care placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8EEF4"/>
+      <stop offset="100%" style="stop-color:#F0F4F8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect x="40" y="40" width="720" height="520" rx="20" fill="none" stroke="#C5D0DC" stroke-width="2" stroke-dasharray="12 8"/>
+  <path d="M400 180 C360 180 340 220 340 260 C340 320 400 380 400 420 C400 380 460 320 460 260 C460 220 440 180 400 180 Z" fill="none" stroke="#159A9C" stroke-width="2" opacity="0.4"/>
+  <text x="400" y="480" text-anchor="middle" font-family="system-ui,sans-serif" font-size="24" font-weight="600" fill="#0B2545">Compassionate Care</text>
+  <text x="400" y="515" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#667585">Replace with patient care photograph</text>
+</svg>

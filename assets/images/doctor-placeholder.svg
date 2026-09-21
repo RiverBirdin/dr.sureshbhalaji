@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Doctor portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8EEF4"/>
+      <stop offset="50%" style="stop-color:#F0F4F8"/>
+      <stop offset="100%" style="stop-color:#E3EAF0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="40" y="40" width="720" height="920" rx="24" fill="none" stroke="#C5D0DC" stroke-width="2" stroke-dasharray="12 8"/>
+  <circle cx="400" cy="340" r="80" fill="none" stroke="#667585" stroke-width="2" opacity="0.4"/>
+  <path d="M280 520 Q400 440 520 520 L520 680 Q400 760 280 680 Z" fill="none" stroke="#667585" stroke-width="2" opacity="0.4"/>
+  <text x="400" y="780" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" font-weight="600" fill="#0B2545">Doctor Portrait</text>
+  <text x="400" y="820" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#667585">Replace with professional photograph</text>
+  <text x="400" y="860" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#159A9C">Photo placeholder  not Dr. Sureshbhalaji</text>
+</svg>

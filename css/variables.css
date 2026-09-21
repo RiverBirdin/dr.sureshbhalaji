@@ -1,0 +1,54 @@
+:root {
+  /* Colors */
+  --color-primary: #0B2545;
+  --color-secondary: #159A9C;
+  --color-dark: #081C2F;
+  --color-background: #F7FAFC;
+  --color-warm-bg: #F9F9F8;
+  --color-surface: #FFFFFF;
+  --color-text: #17202A;
+  --color-muted: #667585;
+  --color-border: #E3EAF0;
+  --color-success: #2E7D68;
+
+  /* Typography */
+  --font-heading: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --text-h1: 50px;
+  --text-h2: clamp(2rem, 3.5vw, 3.5rem);
+  --text-h3: clamp(1.25rem, 2vw, 1.5rem);
+  --text-body: clamp(1rem, 1.1vw, 1.125rem);
+  --line-height: 1.65;
+
+  /* Spacing */
+  --container: 1240px;
+  --section-space: clamp(40px, 5vw, 72px);
+  --section-space-lg: clamp(56px, 7vw, 88px);
+  --gap-sm: 8px;
+  --gap-md: 16px;
+  --gap-lg: 24px;
+  --gap-xl: 32px;
+  --gap-2xl: 40px;
+  --gap-3xl: 48px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 28px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(11, 37, 69, 0.06);
+  --shadow-md: 0 4px 20px rgba(11, 37, 69, 0.08);
+  --shadow-lg: 0 8px 40px rgba(11, 37, 69, 0.1);
+
+  /* Transitions */
+  --transition-fast: 200ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+
+  /* Layout */
+  --header-height: 72px;
+  --mobile-cta-height: 64px;
+}

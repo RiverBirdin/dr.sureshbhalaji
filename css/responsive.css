@@ -1,0 +1,384 @@
+/* ─── Global responsive foundations ─── */
+
+.image-frame img,
+.image-placeholder {
+  width: 100%;
+  max-width: 100%;
+}
+
+.hero__photo {
+  max-height: min(640px, 78vh);
+}
+
+.site-nav__link,
+.mobile-nav__link {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* ─── Extra-small phones (320px – 374px) ─── */
+@media (max-width: 374px) {
+  .trust-stats__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .brand-mark__name {
+    font-size: 1rem;
+  }
+
+  .brand-mark__tagline {
+    font-size: 0.5625rem;
+  }
+
+  .credibility-badge {
+    left: 12px;
+    bottom: 12px;
+    padding: 10px 14px;
+  }
+
+  .credibility-badge__number {
+    font-size: 1.25rem;
+  }
+
+  .stat__number {
+    font-size: clamp(1.75rem, 8vw, 2.25rem);
+  }
+
+  .location-card__name {
+    font-size: 1rem;
+  }
+}
+
+/* ─── Small mobile (375px – 639px) ─── */
+@media (max-width: 639px) {
+  .hero {
+    padding-top: calc(var(--header-height) + 24px);
+    min-height: auto;
+  }
+
+  .hero__grid {
+    gap: var(--gap-xl);
+  }
+
+  .hero__actions .btn-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+  }
+
+  .trust-stats__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gap-lg);
+  }
+
+  .trust-stats__grid .stat:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .experience-stats {
+    grid-template-columns: 1fr;
+    gap: var(--gap-xl);
+  }
+
+  .expertise-grid,
+  .locations-grid,
+  .approach-grid,
+  .contact-grid,
+  .qual-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .split-grid,
+  .profile-grid,
+  .booking-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-grid__image {
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .credibility-badge {
+    left: 16px;
+    bottom: 16px;
+    padding: 12px 16px;
+  }
+
+  .cta-section .btn-group,
+  .btn-group--responsive {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .cta-section .btn,
+  .btn-group--responsive .btn {
+    width: 100%;
+  }
+
+  .page-hero {
+    padding-top: calc(var(--header-height) + 40px);
+    padding-bottom: clamp(48px, 8vw, 80px);
+  }
+
+  .section-header {
+    margin-bottom: var(--gap-xl);
+  }
+
+  .heading-subsection br {
+    display: none;
+  }
+
+  .heading-subsection {
+    max-width: none;
+  }
+
+  .site-footer__grid {
+    grid-template-columns: 1fr;
+    gap: var(--gap-xl);
+  }
+
+  .timeline {
+    padding-left: 28px;
+  }
+
+  .mobile-cta-bar__item {
+    min-height: 48px;
+    padding-block: 6px;
+  }
+
+  .menu-toggle {
+    min-width: 48px;
+    min-height: 48px;
+  }
+
+  .site-header__cta {
+    display: none;
+  }
+}
+
+/* ─── Tablet (640px – 1023px) ─── */
+@media (min-width: 640px) {
+  .trust-stats__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .expertise-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .experience-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .qual-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .approach-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .site-footer {
+    padding-bottom: var(--gap-2xl);
+  }
+
+  main {
+    padding-bottom: 0;
+  }
+
+  .mobile-cta-bar {
+    display: none;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .site-footer__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .booking-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-block: calc(var(--header-height) + 32px) clamp(40px, 5vw, 56px);
+  }
+}
+
+/* ─── Desktop (1024px+) ─── */
+@media (min-width: 1024px) {
+  .site-nav {
+    display: block;
+  }
+
+  .site-header__actions {
+    display: flex;
+  }
+
+  .site-header__cta {
+    display: inline-flex;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .hero__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap-2xl);
+  }
+
+  .hero__visual {
+    order: 2;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .hero__visual {
+    align-self: center;
+  }
+
+  .hero__photo {
+    width: min(100%, 560px);
+    max-height: min(680px, calc(100vh - var(--header-height) - 80px));
+    margin-top: -36px;
+  }
+
+  .hero__visual::after {
+    width: min(100%, 560px);
+  }
+
+  .split-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .split-grid__visual {
+    max-width: none;
+    margin-inline: 0;
+  }
+
+  .split-grid--reverse .split-grid__content {
+    order: 2;
+  }
+
+  .expertise-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .approach-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .booking-layout {
+    grid-template-columns: 1fr 1.4fr;
+    align-items: start;
+  }
+
+  .profile-grid {
+    grid-template-columns: minmax(300px, 44%) 1fr;
+    align-items: center;
+  }
+
+  .profile-grid__image {
+    max-width: none;
+    margin-inline: 0;
+  }
+
+  .site-footer__grid {
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  }
+
+  .hero {
+    padding-top: calc(var(--header-height) + 48px);
+    min-height: auto;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* ─── Large desktop (1280px+) ─── */
+@media (min-width: 1280px) {
+  .hero__content {
+    padding-right: var(--gap-2xl);
+  }
+
+  .container {
+    padding-inline: clamp(24px, 3vw, 48px);
+  }
+}
+
+/* ─── Wide screens (1440px+) ─── */
+@media (min-width: 1440px) {
+  :root {
+    --container: 1280px;
+  }
+}
+
+/* ─── Ultra-wide (1920px+) ─── */
+@media (min-width: 1920px) {
+  .hero__content {
+    max-width: 640px;
+  }
+
+  .section-header {
+    max-width: 720px;
+  }
+}
+
+/* ─── Landscape phones ─── */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    min-height: auto;
+    padding-block: calc(var(--header-height) + 16px) 48px;
+  }
+
+  .hero__photo {
+    max-height: 50vh;
+  }
+
+  .mobile-nav__panel {
+    padding-top: calc(var(--header-height) + 12px);
+  }
+}
+
+/* ─── Reduced motion already in animations.css ─── */
+
+/* ─── High contrast / coarse pointer (touch devices) ─── */
+@media (pointer: coarse) {
+  .btn {
+    min-height: 48px;
+  }
+
+  .card {
+    padding: clamp(20px, 3vw, 32px);
+  }
+
+  .site-nav__link {
+    padding-block: 8px;
+  }
+
+  .form-input,
+  .form-select,
+  .form-textarea {
+    min-height: 52px;
+  }
+}
